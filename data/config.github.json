@@ -1,17 +1,17 @@
 {
   "ai": {
     "provider": "ali",
-    "model": "qwen-plus",
+    "model": "deepseek-v4-pro",
     "api_key_env": "DASHSCOPE_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "throttle_sec": 0.5,
+    "throttle_sec": 0.3,
     "languages": [
       "zh",
       "en"
     ],
-    "analysis_concurrency": 4,
-    "enrichment_concurrency": 3
+    "analysis_concurrency": 3,
+    "enrichment_concurrency": 2
   },
   "processing": {
     "profiles_dir": "profiles",
